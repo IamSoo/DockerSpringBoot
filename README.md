@@ -5,6 +5,7 @@ Steps:
 Install and run docker on your env.
 
 git clone https://github.com/IamSoo/DockerSpringBoot.git
+
 mvn clean install
 
 Docker Part:
