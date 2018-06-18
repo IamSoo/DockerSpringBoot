@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerRestEndpoint {
 
-    @RequestMapping("/rest/docker/hellp")
+    @RequestMapping("/rest/docker/hello")
     public String hello(){
-        return "Hey Welcome to Rest Deployed on Docker";
+        return "Hey Welcome to REST Deployed on Docker";
     }
 }

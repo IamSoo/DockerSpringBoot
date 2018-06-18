@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/pringDocker-0.0.1-SNAPSHOT.jar pringDocker-0.0.1-SNAPSHOT.jar
+ADD target/SpringDocker-0.0.1-SNAPSHOT.jar SpringDocker-0.0.1-SNAPSHOT.jar
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","pringDocker-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","SpringDocker-0.0.1-SNAPSHOT.jar"]
