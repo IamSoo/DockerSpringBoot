@@ -8,6 +8,6 @@ public class DockerRestEndpoint {
 
     @RequestMapping("/rest/docker/hello")
     public String hello(){
-        return "Hey Welcome to REST Deployed on Docker";
+        return "Hello Welcome to REST Deployed on Docker";
     }
 }
